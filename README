@@ -37,7 +37,7 @@ voxel size=1x0.977x0.977 mm).
 One run of Penn fractal n-back task five-echo fMRI data
 (72 slices;
 repetition time, TR=1761 ms;
-echo time, TE=14.2, 38.93, 63.66, 88.39, 113.12 ms;
+echo times, TE=14.2, 38.93, 63.66, 88.39, 113.12 ms;
 flip angle, FA=68 degrees;
 field of view, FOV=220x220 mm,
 matrix size=110x110;
@@ -50,7 +50,7 @@ After the `_noRF` volumes were split into separate files, each run was 6:58 minu
 Two runs of open-eye resting-state five-echo fMRI data
 (72 slices;
 repetition time, TR=1761 ms;
-echo time, TE=14.2, 38.93, 63.66, 88.39, 113.12 ms;
+echo times, TE=14.2, 38.93, 63.66, 88.39, 113.12 ms;
 flip angle, FA=68 degrees;
 field of view, FOV=220x220 mm,
 matrix size=110x110;
