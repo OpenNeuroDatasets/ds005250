@@ -1,30 +1,30 @@
 {
-  "Acknowledgements": "We thank Damien Fair, Steven Nelson, Julia Moser, and our other collaborators at the University of Minnesota for developing and sharing the multi-echo BOLD protocol we used in this dataset. We thank Andrew Van for his contributions to the protocol as well. We also thank Terry Sacket and the rest of the DBIC (Dartmouth Brain Imaging Center) personnel, as well as Yaroslav O. Halchenko, for developing the ReproIn naming convention, which we used to organize scans and curate the dataset.",
-  "Authors": [
-    "Taylor Salo",
-    "Dylan Tisdall",
-    "Lia Brodrick",
-    "Adam Czernuszenko",
-    "David Roalf",
-    "Sage Rush-Goebel",
-    "Nick Wellman",
-    "Ted Satterthwaite"
-  ],
-  "BIDSVersion": "1.9.0",
-  "DatasetDOI": "TODO: eventually a DOI for the dataset",
-  "DatasetType": "raw",
-  "EthicsApprovals": [
-    "IRB 844353"
-  ],
-  "Funding": [
-    "AE Foundation",
-    "Penn-CHOP Lifespan Brain Institute",
-    "NIMH R01MH113550"
-  ],
-  "HowToAcknowledge": "Please reference the OpenNeuro dataset identifier.",
-  "License": "CC0",
-  "Name": "Single-echo/multi-echo comparison pilot",
-  "ReferencesAndLinks": [
-    "https://pennlinc.github.io/mobilephenomics/"
-  ]
+    "Acknowledgements": "We thank Damien Fair, Steven Nelson, Julia Moser, and our other collaborators at the University of Minnesota for developing and sharing the multi-echo BOLD protocol we used in this dataset. We thank Andrew Van for his contributions to the protocol as well. We also thank Terry Sacket and the rest of the DBIC (Dartmouth Brain Imaging Center) personnel, as well as Yaroslav O. Halchenko, for developing the ReproIn naming convention, which we used to organize scans and curate the dataset.",
+    "Authors": [
+        "Taylor Salo",
+        "Dylan Tisdall",
+        "Lia Brodrick",
+        "Adam Czernuszenko",
+        "David Roalf",
+        "Sage Rush-Goebel",
+        "Nick Wellman",
+        "Ted Satterthwaite"
+    ],
+    "BIDSVersion": "1.9.0",
+    "DatasetDOI": "TODO: eventually a DOI for the dataset",
+    "DatasetType": "raw",
+    "EthicsApprovals": [
+        "IRB 844353"
+    ],
+    "Funding": [
+        "AE Foundation",
+        "Penn-CHOP Lifespan Brain Institute",
+        "NIMH R01MH113550"
+    ],
+    "HowToAcknowledge": "Please reference the OpenNeuro dataset identifier.",
+    "License": "CC0",
+    "Name": "Single-echo/multi-echo comparison pilot",
+    "ReferencesAndLinks": [
+        "https://pennlinc.github.io/mobilephenomics/"
+    ]
 }
