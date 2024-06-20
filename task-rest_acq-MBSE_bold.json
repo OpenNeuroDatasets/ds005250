@@ -4,7 +4,7 @@
   "BandwidthPerPixelPhaseEncode": 21.786,
   "BaseResolution": 90,
   "BodyPartExamined": "BRAIN",
-  "CogAtlasID": "http://www.cognitiveatlas.org/task/id/trm_54e69c642d89b",
+  "CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883",
   "CoilCombinationMethod": "Sum of Squares",
   "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
   "ConversionSoftware": "dcm2niix",
@@ -56,6 +56,6 @@
   "SoftwareVersions": "syngo MR E11",
   "SpacingBetweenSlices": 2.4,
   "StationName": "AWP66044",
-  "TaskName": "rest eyes closed",
+  "TaskName": "rest eyes open",
   "TotalReadoutTime": 0.045391
 }
