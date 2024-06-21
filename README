@@ -118,14 +118,6 @@ but there is an open pull request adding it
 (https://github.com/bids-standard/bids-specification/pull/1451).
 
 
-### NORDIC-denoised BOLD runs
-
-We have run NORDIC on the multi-echo scans, using the `noRF` files when available.
-The NORDIC-denoised data have the `rec-nordic` entity in the filenames.
-
-We have made copies of the associated single-band reference images as well.
-
-
 ### sub-08 ses-noHC
 
 Subject 08's ses-noHC was accidentally acquired without the head coil plugged in.
@@ -156,6 +148,15 @@ For some runs, this involved entirely removing the noRF scans.
 
 The events files for the fractal n-back task are not included in version 1.0.0 of the dataset.
 We will add them in a future patch release.
+
+
+### NORDIC-denoised BOLD runs
+
+We have run NORDIC on the multi-echo scans, using the `noRF` files when available.
+The NORDIC-denoised data have the `rec-nordic` entity in the filenames.
+
+We have made copies of the associated single-band reference images as well.
+We may add these files at some point in the future.
 
 
 ## Notes about acquisition
