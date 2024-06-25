@@ -1,8 +1,0 @@
-1.1.0 2024-06-25
-  - Add missing sub-04 ses-03 task-fracback BOLD files.
-  - Add fracback events files.
-1.0.1 2024-06-21
-  - Update author list and README.
-1.0.0 2024-06-20
-  - Add raw BIDS files from all participants.
-1.0.0  Initial data release
