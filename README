@@ -113,9 +113,16 @@ which have been split off into files with the `_noRF` suffix.
 These noise scans can be used to suppress thermal noise with NORDIC denoising.
 BOLD runs that were stopped early or failed to fully reconstruct may be missing these noise scans.
 
-The `_noRF` suffix is not (as of 2024/03/22) supported within BIDS,
-but there is an open pull request adding it
-(https://github.com/bids-standard/bids-specification/pull/1451).
+The `_noRF` suffix is will be supported in BIDS version 1.10.0,
+but until that version is released they will be ignored by the validator.
+
+
+### Penn Fractal N-Back events files
+
+The events files for the fractal n-back task were added in version 1.1.0 of the dataset.
+It looks like the task software only logged the last response in each trial's response window,
+so there are some trials with very long response times from responses that occurred
+during the next block's instruction screen.
 
 
 ### sub-08 ses-noHC
@@ -142,12 +149,6 @@ We've chosen to exclude the remaining files from the dataset.
 In some cases, we noticed reconstruction errors on final volumes in the multi-echo BOLD runs.
 When that happened, we dropped any trailing volumes, so that all files from a given run are the same length.
 For some runs, this involved entirely removing the noRF scans.
-
-
-### Penn Fractal N-Back events files
-
-The events files for the fractal n-back task are not included in version 1.0.0 of the dataset.
-We will add them in a future patch release.
 
 
 ### NORDIC-denoised BOLD runs
