@@ -15,8 +15,6 @@
     "DeviceSerialNumber": "66044",
     "EchoNumber": 1,
     "EchoTime": 0.0142,
-    "EchoTime1": 0.0142,
-    "EchoTime2": 0.03893,
     "EchoTrainLength": 42,
     "EffectiveEchoSpacing": 0.000279996,
     "FlipAngle": 68,
@@ -162,5 +160,6 @@
     "StationName": "AWP66044",
     "TotalReadoutTime": 0.0305196,
     "TxRefAmp": 221.334,
+    "Units": "arbitrary",
     "WipMemBlock": "48a7a924-4ac4-43a1-bba1-061bbd9a1268||Sequence: R016 ve11c/master r/e634e98; Dec 19 2017 11:00:25 by eja"
 }
