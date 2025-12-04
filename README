@@ -151,15 +151,6 @@ When that happened, we dropped any trailing volumes, so that all files from a gi
 For some runs, this involved entirely removing the noRF scans.
 
 
-### NORDIC-denoised BOLD runs
-
-We have run NORDIC on the multi-echo scans, using the `noRF` files when available.
-The NORDIC-denoised data have the `rec-nordic` entity in the filenames.
-
-We have made copies of the associated single-band reference images as well.
-We may add these files at some point in the future.
-
-
 ## Notes about acquisition
 
 The multi-echo BOLD scans were acquired on a 3T Siemens Prisma scanner running VE11C.
