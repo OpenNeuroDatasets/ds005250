@@ -113,9 +113,6 @@ which have been split off into files with the `_noRF` suffix.
 These noise scans can be used to suppress thermal noise with NORDIC denoising.
 BOLD runs that were stopped early or failed to fully reconstruct may be missing these noise scans.
 
-The `_noRF` suffix is will be supported in BIDS version 1.10.0,
-but until that version is released they will be ignored by the validator.
-
 
 ### Penn Fractal N-Back events files
 
