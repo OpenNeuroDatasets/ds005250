@@ -1,3 +1,4 @@
+ad867e5e-666f-44cd-98fe-f606ab9c4910 autoenable=true name=openneuro type=external externaltype=openneuro encryption=none url=https://openneuro.org/git/1/ds005250
 142129bd-eab6-4b4f-a7e0-73c23890804c bucket=openneuro-production cost=400 datacenter=US encryption=none fileprefix=ds005250/ host=storage.googleapis.com name=s3-BACKUP partsize=none port=80 public=no storageclass=ARCHIVE timestamp=1763855844s type=S3 timestamp=1765225492s
 1de5d64d-ac68-4796-a7d7-5ca3e8f25925 encryption=none externaltype=openneuro name=openneuro type=external url=https://openneuro.org/git/1/ds005250 timestamp=1718720389s
 554d51f9-965b-4d13-9588-79600e3926ae autoenable=true bucket=openneuro.org datacenter=US encryption=none exporttree=yes fileprefix=ds005250/ host=s3.amazonaws.com name=s3-PUBLIC-failedattempt partsize=1GiB port=80 public=no publicurl=https://s3.amazonaws.com/openneuro.org storageclass=STANDARD type=S3 versioning=yes timestamp=1726254520.971382576s
